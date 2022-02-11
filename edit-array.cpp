@@ -7,7 +7,7 @@ int main(){
   //printing intial array
   for(int index  = 0; index < 10; index++){
     myData[index] = 1;
-    std::cout << myData[index];
+    std::cout << myData[index] << " ";
   }
   
   int i, v;
@@ -29,7 +29,7 @@ int main(){
 
     //printing new array
     for(int index = 0; index < 10; index++){
-      std::cout << myData[index];
+      std::cout << myData[index] << " ";
     }
   } while (i <= 10 && i >= 0);
 
