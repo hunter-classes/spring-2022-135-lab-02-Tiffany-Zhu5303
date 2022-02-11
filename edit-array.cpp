@@ -19,7 +19,7 @@ int main(){
     std::cin >> v;
 
     //Checking range
-    if(i <= 10 && i>= 0){
+    if(i < 10 && i>= 0){
       myData[i] = v;
       }
     else{
