@@ -5,7 +5,7 @@ main.o: main.cpp funcs.h
 funcs.o: funcs.cpp funcs.h
 	g++ -c funcs.cpp
 clean:
-	rm main.o funcs.o
+	rm main.o funcs.o main
 help:
 	@echo "Targets:"
 	@echo " main"
